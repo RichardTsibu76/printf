@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-Overview of the custom printf function
-This project is a C programming implementation of a custom printf function. This project seeks to provide a condensed yet extendable version of the powerful printf function included in the C language library.
-
-Features
-Supports frequently used format specifiers, including %d, %s, %c, %f, etc.
-Allows for formatting choices for width and precision, such as %10s, %.2f.
-Variable parameters: Uses the ellipsis (...) syntax to handle a variable number of parameters.
-=======
 0x11. C - printf
 Concepts
 For this project, we expect you to look at these concepts:
@@ -69,4 +60,4 @@ You don’t have to handle the length modifiers
 Repo:
 
 GitHub repository: printf
->>>>>>> 0b955e5fe90f0b4298e403ad364607a7b1c34ef5
+
