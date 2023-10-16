@@ -2,8 +2,8 @@
 
 /**
  *f_caller - function pointer pass as parameter
- *@check - points to format specifier
- *Return - it returns NULL on sucess
+ *@check: points to format specifier
+ *Return: it returns NULL on sucess
  */
 int (*f_caller(char check))(va_list)
 {
