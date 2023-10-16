@@ -24,7 +24,7 @@ int _printf(const char *format, ...)
 			if (eval == '\0')
 				return (-1);
 			if (eval == 'c' || eval == 's' || eval == '%'
-					|| eval== 'd' || eval == 'i')
+					|| eval == 'd' || eval == 'i')
 				my_length += f_caller(eval)(printf_arg);
 		}
 		else
