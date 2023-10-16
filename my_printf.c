@@ -22,7 +22,7 @@ int _printf(const char *format, ...)
 			index++;
 			eval = format[index];
 			if (eval == '\0')
-				return (-1);
+				break;
 			else if (eval == 'c' || eval == 's' || eval == '%'
 					|| eval == 'd' || eval == 'i')
 				my_length += f_caller(eval)(printf_arg);
