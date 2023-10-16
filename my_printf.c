@@ -29,7 +29,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-/* the write function or system call writing to the standard output with fd and 1byte */
+/* the write function or system call writing (fd 1) 1byte */
 			write(1, &format[index], 1);
 			my_length++;
 		}
