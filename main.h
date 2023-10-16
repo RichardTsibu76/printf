@@ -1,7 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* HEADER FILES */
 
 #include <stdio.h>
 #include <stdarg.h>
@@ -20,7 +19,7 @@ typedef struct function_call
 	int (*fxn)(va_list);
 } f_call;
 
-
+/* prototypes of the function having the entire control */
 int _printf(const char *format, ...);
 int put_char(va_list printf_arg);
 int put_string(va_list printf_arg);
