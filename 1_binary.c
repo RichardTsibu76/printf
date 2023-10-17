@@ -29,24 +29,7 @@ int _printf(const char *format, ...)
 			putchar(*format);
 			count++;
 		}
-		if (*format == 'b')
-		{
-			unsigned int print = va_arg(convert, unsigned int);
-			while (print > 0)
-			{
-				remain = print % 2;
-				array[i] = remain;i++;
-				print = print / 2;
-				count++;
-			}
-			for (i = (i - 1); i >= 0; i--)
-			{
-				putchar(array[i] + '0');
-				count++;
-			}
-		}
-		format++;
+
+	if (*format == 'b')
 	}
-	va_end(convert);
-	return count;
 }
